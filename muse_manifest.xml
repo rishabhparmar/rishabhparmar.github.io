@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="architectfromindia.com" resolutions="1x" timestamp="1525325486804">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="architectfromindia.com" resolutions="1x" timestamp="1525325965174">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="3969680376" ref="index"/>
+    <file name="index.css" crc="3833037982" ref="index"/>
     <file name="untitled-2.css" crc="129557522" ref="untitled-2"/>
   </folder>
   <folder name="scripts">
@@ -15,6 +15,6 @@
   <folder name="images">
     <file name="u157-4.png" crc="392810104" ref="index"/>
   </folder>
-  <file name="index.html" crc="4071024753" seo="true" mt="1525325464627" redirect="true"/>
+  <file name="index.html" crc="4263582741" seo="true" mt="1525325947120" redirect="true"/>
   <file name="untitled-2.html" crc="510576347" seo="true" mt="1524173319674" redirect="true"/>
 </manifest>
