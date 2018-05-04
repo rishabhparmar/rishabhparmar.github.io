@@ -17,7 +17,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3770912807" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=62960235" id="pagesheet"/>
    </head>
  <body>
 
@@ -39,15 +39,55 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
    <div class="colelem" id="u194"><!-- custom html -->
     <iframe width="700" height="450" src="http://maps.tnc.org/migrations-in-motion/#5/44.324/-122.651" frameborder="0"></iframe>
    </div>
-   <div class="colelem" id="u198"><!-- custom html -->
-    <iframe width="700" height="450" src="http://dwtkns.com/srtm/" frameborder="0"></iframe>
+   <div class="size_fluid_width colelem" id="u358" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- custom html -->
+    
+<style>
+
+.pDiviframe1 {
+	width: auto;
+	height: 547px;
+	display: block;
+	overflow: hidden;
+}
+
+.iStyle {
+	width: 100%; 
+	height: 100%; 
+}
+
+</style>	
+
+	<div class="pDiviframe1">
+		<iframe class="iStyle" src="http://dwtkns.com/srtm/" scrolling="yes" frameborder="0"></iframe>
+	</div>
+
    </div>
    <div class="clearfix colelem" id="u164-6"><!-- content -->
     <p>Find data for site.</p>
     <p id="u164-4"><span id="u164-3">Downloadable environmental data sources. Enter site address in search bar for USGS sources or click the links to open website.</span></p>
    </div>
-   <div class="colelem" id="u265"><!-- custom html -->
-    <iframe src="https://coast.noaa.gov/dataviewer/#/lidar/search/" name="iframe985426" width="700px" height="400px" scrolling="auto" frameborder="1" align="center"></iframe>
+   <div class="size_fluid_width colelem" id="u363" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- custom html -->
+    
+<style>
+
+.pDiviframe1 {
+	width: auto;
+	height: 420px;
+	display: block;
+	overflow: hidden;
+}
+
+.iStyle {
+	width: 100%; 
+	height: 100%; 
+}
+
+</style>	
+
+	<div class="pDiviframe1">
+		<iframe class="iStyle" src="https://coast.noaa.gov/dataviewer/#/lidar/search/" scrolling="yes" frameborder="0"></iframe>
+	</div>
+
    </div>
    <div class="colelem" id="u272"><!-- custom html -->
     <iframe width="700" height="450" src="https://global-surface-water.appspot.com" frameborder="0"></iframe>
@@ -72,8 +112,28 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
    <div class="colelem" id="u214"><!-- custom html -->
     <iframe width="700" height="450" src="https://qgis.org/en/site/" frameborder="0"></iframe>
    </div>
-   <div class="colelem" id="u218"><!-- custom html -->
-    <iframe width="700" height="450" src="http://www.grasshopper3d.com" frameborder="0"></iframe>
+   <div class="size_fluid_width colelem" id="u373" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- custom html -->
+    
+<style>
+
+.pDiviframe1 {
+	width: auto;
+	height: 406px;
+	display: block;
+	overflow: hidden;
+}
+
+.iStyle {
+	width: 100%; 
+	height: 100%; 
+}
+
+</style>	
+
+	<div class="pDiviframe1">
+		<iframe class="iStyle" src="http://www.grasshopper3d.com" scrolling="yes" frameborder="0"></iframe>
+	</div>
+
    </div>
    <div class="clearfix colelem" id="u242-5"><!-- content -->
     <p>Tutorials</p>
@@ -83,8 +143,15 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     <iframe width="700" height="450" src="https://hydrashare.github.io/hydra/" frameborder="0"></iframe>
 
    </div>
-   <div class="verticalspacer" data-offset-top="5847" data-content-above-spacer="5847" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   <div class="verticalspacer" data-offset-top="6384" data-content-above-spacer="6383" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
   </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js?crc=209076791" type="text/javascript">\x3C/script>');
+</script>
   <!-- Other scripts -->
   <script type="text/javascript">
    // Decide whether to suppress missing file error or not based on preference setting
@@ -109,5 +176,46 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 </script>
   <!-- RequireJS script -->
   <script src="scripts/require.js?crc=7928878" type="text/javascript" async data-main="scripts/museconfig.js?crc=4286661555" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+  
+  <!--HTML Widget code-->
+  	
+<script>
+
+	$('.pDiviframe1').parent().css({'border':'solid #000000 2px'});
+	
+	var pointH = $('.pDiviframe1').parent().height();
+	var pointW = $('.pDiviframe1').parent().width();
+
+	$(window).resize(function() {
+		var pH = $('.pDiviframe1').parent().height();
+		var pW = $('.pDiviframe1').parent().width();
+		$('.pDiviframe1').css({'height':pH, 'width':pW});
+		$('.iStyle').css({'width':pW + 'px'});
+	});
+
+	$('.pDiviframe1').css({'width': pointW + 'px', 'height': pointH + 'px' });
+	$('.iStyle').css({'width':pointW + 'px'});
+
+</script>	
+	
+<script>
+
+	$('.pDiviframe1').parent().css({'border':'solid #000000 1px'});
+	
+	var pointH = $('.pDiviframe1').parent().height();
+	var pointW = $('.pDiviframe1').parent().width();
+
+	$(window).resize(function() {
+		var pH = $('.pDiviframe1').parent().height();
+		var pW = $('.pDiviframe1').parent().width();
+		$('.pDiviframe1').css({'height':pH, 'width':pW});
+		$('.iStyle').css({'width':pW + 'px'});
+	});
+
+	$('.pDiviframe1').css({'width': pointW + 'px', 'height': pointH + 'px' });
+	$('.iStyle').css({'width':pointW + 'px'});
+
+</script>	
+
    </body>
 </html>
