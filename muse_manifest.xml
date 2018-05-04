@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="architectfromindia.com" resolutions="1x" timestamp="1525402790714">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="architectfromindia.com" resolutions="1x" timestamp="1525403112337">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="untitled-2.css" crc="129557522" ref="untitled-2"/>
-    <file name="index.css" crc="368483839" ref="index"/>
+    <file name="index.css" crc="3770912807" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:untitled-2"/>
@@ -13,8 +13,8 @@
     <file name="require.js" crc="7928878" ref="index:untitled-2"/>
   </folder>
   <folder name="images">
-    <file name="u157-4.png" crc="392810104" ref="index"/>
+    <file name="u157-4.png" crc="4191084277" ref="index"/>
   </folder>
-  <file name="index.html" crc="96836973" seo="true" mt="1525402767448" redirect="true"/>
+  <file name="index.html" crc="251016875" seo="true" mt="1525403103531" redirect="true"/>
   <file name="untitled-2.html" crc="510576347" seo="true" mt="1524173319674" redirect="true"/>
 </manifest>
